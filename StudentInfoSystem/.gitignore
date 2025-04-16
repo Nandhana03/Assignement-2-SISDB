@@ -1,0 +1,16 @@
+# Eclipse-specific
+.classpath
+.project
+.settings/
+
+# Build output
+bin/
+target/
+*.class
+
+# Secrets
+db.properties
+
+# OS junk
+.DS_Store
+Thumbs.db

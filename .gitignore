@@ -1,15 +1,15 @@
 # Eclipse-specific
-.classpath
-.project
-.settings/
+Nandhana.V_Java_Coding_Challenge/JavaCodeChallenge/.classpath
+Nandhana.V_Java_Coding_Challenge/JavaCodeChallenge/.project
+Nandhana.V_Java_Coding_Challenge/JavaCodeChallenge/.settings/
 
 # Build output
-bin/
-target/
-*.class
+Nandhana.V_Java_Coding_Challenge/JavaCodeChallenge/bin/
+Nandhana.V_Java_Coding_Challenge/JavaCodeChallenge/target/
+Nandhana.V_Java_Coding_Challenge/JavaCodeChallenge/**/*.class
 
 # Secrets
-db.properties
+Nandhana.V_Java_Coding_Challenge/JavaCodeChallenge/db.properties
 
 # OS junk
 .DS_Store
