@@ -1,30 +1,30 @@
-package com.hexaware.SIS.service.impl;
+package com.hexaware.sis.service.impl;
 
-import com.hexaware.SIS.dao.StudentDAO;
-import com.hexaware.SIS.dao.PaymentDAO;
-import com.hexaware.SIS.dao.EnrollmentDAO;
-import com.hexaware.SIS.dao.impl.StudentDAOImpl;
-import com.hexaware.SIS.dao.impl.PaymentDAOImpl;
-import com.hexaware.SIS.dao.impl.EnrollmentDAOImpl;
-import com.hexaware.SIS.entity.Student;
-import com.hexaware.SIS.exception.DuplicateEnrollmentException;
-import com.hexaware.SIS.entity.Course;
-import com.hexaware.SIS.entity.Payment;
-import com.hexaware.SIS.entity.Enrollment;
+import com.hexaware.sis.dao.StudentDao;
+import com.hexaware.sis.dao.PaymentDao;
+import com.hexaware.sis.dao.EnrollmentDao;
+import com.hexaware.sis.dao.impl.StudentDaoImpl;
+import com.hexaware.sis.dao.impl.PaymentDaoImpl;
+import com.hexaware.sis.dao.impl.EnrollmentDaoImpl;
+import com.hexaware.sis.entity.Student;
+import com.hexaware.sis.exception.DuplicateEnrollmentException;
+import com.hexaware.sis.entity.Course;
+import com.hexaware.sis.entity.Payment;
+import com.hexaware.sis.entity.Enrollment;
 
 import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.hexaware.SIS.service.StudentService;
+import com.hexaware.sis.service.StudentService;
 
 public class StudentServiceImpl implements StudentService {
 
     // Initializing DAO classes
-    private final StudentDAO studentDAO = new StudentDAOImpl();
-    private final PaymentDAO paymentDAO = new PaymentDAOImpl();
-    private final EnrollmentDAO enrollmentDAO = new EnrollmentDAOImpl();
+    private final StudentDao studentDAO = new StudentDaoImpl();
+    private final PaymentDao paymentDAO = new PaymentDaoImpl();
+    private final EnrollmentDao enrollmentDAO = new EnrollmentDaoImpl();
     
     @Override
     public void createStudent(Student student) throws SQLException {

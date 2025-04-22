@@ -1,14 +1,14 @@
-package com.hexaware.SIS.dao.impl;
+package com.hexaware.sis.dao.impl;
 
-import com.hexaware.SIS.dao.TeacherDAO;
-import com.hexaware.SIS.entity.Teacher;
-import com.hexaware.SIS.util.DBConnUtil;
+import com.hexaware.sis.dao.TeacherDao;
+import com.hexaware.sis.entity.Teacher;
+import com.hexaware.sis.util.DBConnUtil;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TeacherDAOImpl implements TeacherDAO {
+public class TeacherDaoImpl implements TeacherDao {
 
     private static final String DB_PROPS = "db.properties";
 

@@ -1,6 +1,6 @@
-package com.hexaware.SIS.service;
+package com.hexaware.sis.service;
 
-import com.hexaware.SIS.entity.Teacher;
+import com.hexaware.sis.entity.Teacher;
 import java.sql.SQLException;
 import java.util.List;
 

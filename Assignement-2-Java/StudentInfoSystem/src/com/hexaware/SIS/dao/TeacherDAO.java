@@ -1,10 +1,10 @@
-package com.hexaware.SIS.dao;
+package com.hexaware.sis.dao;
 
-import com.hexaware.SIS.entity.Teacher;
+import com.hexaware.sis.entity.Teacher;
 import java.sql.SQLException;
 import java.util.List;
 
-public interface TeacherDAO {
+public interface TeacherDao {
 
     // Create
     void insertTeacher(Teacher teacher) throws SQLException;

@@ -1,4 +1,4 @@
-package com.hexaware.SIS.exception;
+package com.hexaware.sis.exception;
 
 public class DuplicateEnrollmentException extends Exception {
     public DuplicateEnrollmentException(String message) {

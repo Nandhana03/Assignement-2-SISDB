@@ -1,19 +1,19 @@
-package com.hexaware.SIS.service.impl;
+package com.hexaware.sis.service.impl;
 
-import com.hexaware.SIS.dao.PaymentDAO;
-import com.hexaware.SIS.dao.impl.PaymentDAOImpl;
-import com.hexaware.SIS.entity.Payment;
-import com.hexaware.SIS.service.PaymentService;
+import com.hexaware.sis.dao.PaymentDao;
+import com.hexaware.sis.dao.impl.PaymentDaoImpl;
+import com.hexaware.sis.entity.Payment;
+import com.hexaware.sis.service.PaymentService;
 
 import java.sql.SQLException;
 import java.util.List;
 
 public class PaymentServiceImpl implements PaymentService {
 
-    private PaymentDAO paymentDAO;
+    private PaymentDao paymentDAO;
 
     public PaymentServiceImpl() {
-        this.paymentDAO = new PaymentDAOImpl(); 
+        this.paymentDAO = new PaymentDaoImpl(); 
     }
 
     @Override

@@ -1,15 +1,15 @@
-package com.hexaware.SIS.dao.impl;
+package com.hexaware.sis.dao.impl;
 
-import com.hexaware.SIS.dao.PaymentDAO;
-import com.hexaware.SIS.entity.Payment;
-import com.hexaware.SIS.util.DBConnUtil;
+import com.hexaware.sis.dao.PaymentDao;
+import com.hexaware.sis.entity.Payment;
+import com.hexaware.sis.util.DBConnUtil;
 
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class PaymentDAOImpl implements PaymentDAO {
+public class PaymentDaoImpl implements PaymentDao {
 
     private static final String DB_PROPS = "db.properties";
 

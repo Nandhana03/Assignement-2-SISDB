@@ -1,20 +1,20 @@
-package com.hexaware.SIS.service.impl;
+package com.hexaware.sis.service.impl;
 
-import com.hexaware.SIS.dao.EnrollmentDAO;
-import com.hexaware.SIS.dao.impl.EnrollmentDAOImpl;
-import com.hexaware.SIS.entity.Enrollment;
-import com.hexaware.SIS.service.EnrollmentService;
+import com.hexaware.sis.dao.EnrollmentDao;
+import com.hexaware.sis.dao.impl.EnrollmentDaoImpl;
+import com.hexaware.sis.entity.Enrollment;
+import com.hexaware.sis.service.EnrollmentService;
 
 import java.sql.SQLException;
 import java.util.List;
 
 public class EnrollmentServiceImpl implements EnrollmentService {
 
-    private EnrollmentDAO enrollmentDAO;
+    private EnrollmentDao enrollmentDAO;
 
     // Constructor to initialize DAO
     public EnrollmentServiceImpl() {
-        this.enrollmentDAO = new EnrollmentDAOImpl(); 
+        this.enrollmentDAO = new EnrollmentDaoImpl(); 
     }
 
     @Override

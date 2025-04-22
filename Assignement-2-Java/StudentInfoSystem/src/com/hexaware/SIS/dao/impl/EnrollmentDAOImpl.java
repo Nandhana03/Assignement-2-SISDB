@@ -1,15 +1,15 @@
-package com.hexaware.SIS.dao.impl;
+package com.hexaware.sis.dao.impl;
 
-import com.hexaware.SIS.dao.EnrollmentDAO;
-import com.hexaware.SIS.entity.Enrollment;
-import com.hexaware.SIS.util.DBConnUtil;
+import com.hexaware.sis.dao.EnrollmentDao;
+import com.hexaware.sis.entity.Enrollment;
+import com.hexaware.sis.util.DBConnUtil;
 
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EnrollmentDAOImpl implements EnrollmentDAO {
+public class EnrollmentDaoImpl implements EnrollmentDao {
 
     private static final String DB_PROPS = "db.properties";
 

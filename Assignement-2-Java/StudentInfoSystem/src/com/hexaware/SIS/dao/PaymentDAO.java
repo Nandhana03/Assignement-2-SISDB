@@ -1,10 +1,10 @@
-package com.hexaware.SIS.dao;
+package com.hexaware.sis.dao;
 
-import com.hexaware.SIS.entity.Payment;
+import com.hexaware.sis.entity.Payment;
 import java.sql.SQLException;
 import java.util.List;
 
-public interface PaymentDAO {
+public interface PaymentDao {
 
     // Create
     void insertPayment(Payment payment) throws SQLException;

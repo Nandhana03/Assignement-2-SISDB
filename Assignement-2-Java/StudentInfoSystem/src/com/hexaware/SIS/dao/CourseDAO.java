@@ -1,10 +1,10 @@
-package com.hexaware.SIS.dao;
+package com.hexaware.sis.dao;
 
-import com.hexaware.SIS.entity.Course;
+import com.hexaware.sis.entity.Course;
 import java.sql.SQLException;
 import java.util.List;
 
-public interface CourseDAO {
+public interface CourseDao {
 
     // Create
     void insertCourse(Course course) throws SQLException;

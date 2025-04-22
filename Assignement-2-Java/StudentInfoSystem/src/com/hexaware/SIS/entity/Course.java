@@ -1,7 +1,7 @@
 
 
 
-package com.hexaware.SIS.entity;
+package com.hexaware.sis.entity;
 
 import java.util.*;
 

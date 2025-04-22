@@ -1,9 +1,9 @@
-package com.hexaware.SIS.service;
+package com.hexaware.sis.service;
 //
-import com.hexaware.SIS.entity.Student;
-import com.hexaware.SIS.exception.*;
-import com.hexaware.SIS.entity.Course;
-import com.hexaware.SIS.entity.Payment;
+import com.hexaware.sis.entity.Student;
+import com.hexaware.sis.exception.*;
+import com.hexaware.sis.entity.Course;
+import com.hexaware.sis.entity.Payment;
 
 import java.sql.SQLException;
 //

@@ -1,19 +1,19 @@
-package com.hexaware.SIS.service.impl;
+package com.hexaware.sis.service.impl;
 
-import com.hexaware.SIS.dao.CourseDAO;
-import com.hexaware.SIS.dao.impl.CourseDAOImpl;
-import com.hexaware.SIS.entity.Course;
-import com.hexaware.SIS.service.CourseService;
+import com.hexaware.sis.dao.CourseDao;
+import com.hexaware.sis.dao.impl.CourseDaoImpl;
+import com.hexaware.sis.entity.Course;
+import com.hexaware.sis.service.CourseService;
 
 import java.sql.SQLException;
 import java.util.List;
 
 public class CourseServiceImpl implements CourseService {
 
-    private final CourseDAO courseDAO;
+    private final CourseDao courseDAO;
 
     public CourseServiceImpl() {
-        this.courseDAO = new CourseDAOImpl(); 
+        this.courseDAO = new CourseDaoImpl(); 
     }
 
     @Override

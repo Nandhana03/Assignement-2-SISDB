@@ -1,11 +1,13 @@
-package com.hexaware.SIS.main;
+package com.hexaware.sis.main;
 import java.sql.SQLIntegrityConstraintViolationException;
 
-import com.hexaware.SIS.dao.SIS;
-import com.hexaware.SIS.entity.*;
-import com.hexaware.SIS.exception.*;
-import com.hexaware.SIS.service.*;
-import com.hexaware.SIS.service.impl.*;
+
+import com.hexaware.sis.dao.Sis;
+import com.hexaware.sis.entity.*;
+import com.hexaware.sis.exception.*;
+import com.hexaware.sis.service.*;
+import com.hexaware.sis.service.impl.*;
+import com.hexaware.sis.dao.Sis;
 
 import java.time.LocalDate;
 import java.sql.SQLException;
@@ -13,7 +15,7 @@ import java.sql.SQLException;
 public class Main {
     public static void main(String[] args){
         // SIS & Service Objects Setup
-        SIS sis = new SIS();
+        Sis sis = new Sis();
         StudentService studentService = new StudentServiceImpl();
         CourseService courseService = new CourseServiceImpl();
         EnrollmentService enrollmentService = new EnrollmentServiceImpl();

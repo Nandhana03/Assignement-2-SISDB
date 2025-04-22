@@ -1,4 +1,4 @@
-package com.hexaware.SIS.util;
+package com.hexaware.sis.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

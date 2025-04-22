@@ -1,13 +1,13 @@
-package com.hexaware.SIS.dao;
+package com.hexaware.sis.dao;
 
-import com.hexaware.SIS.entity.*;
-import com.hexaware.SIS.exception.*;
+import com.hexaware.sis.entity.*;
+import com.hexaware.sis.exception.*;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SIS {
+public class Sis {
 
     private List<Student> students = new ArrayList<>();
     private List<Course> courses = new ArrayList<>();

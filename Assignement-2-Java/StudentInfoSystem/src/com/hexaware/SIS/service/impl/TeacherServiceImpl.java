@@ -1,16 +1,16 @@
-package com.hexaware.SIS.service.impl;
+package com.hexaware.sis.service.impl;
 
-import com.hexaware.SIS.dao.TeacherDAO;
-import com.hexaware.SIS.dao.impl.TeacherDAOImpl;
-import com.hexaware.SIS.entity.Teacher;
-import com.hexaware.SIS.service.TeacherService;
+import com.hexaware.sis.dao.TeacherDao;
+import com.hexaware.sis.dao.impl.TeacherDaoImpl;
+import com.hexaware.sis.entity.Teacher;
+import com.hexaware.sis.service.TeacherService;
 
 import java.sql.SQLException;
 import java.util.List;
 
 public class TeacherServiceImpl implements TeacherService {
 
-    private TeacherDAO teacherDAO = new TeacherDAOImpl();
+    private TeacherDao teacherDAO = new TeacherDaoImpl();
 
     @Override
     public void addTeacher(Teacher teacher) throws SQLException {

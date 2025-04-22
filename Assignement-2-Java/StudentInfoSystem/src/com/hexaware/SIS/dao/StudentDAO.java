@@ -1,10 +1,10 @@
-package com.hexaware.SIS.dao;
+package com.hexaware.sis.dao;
 
-import com.hexaware.SIS.entity.Student;
+import com.hexaware.sis.entity.Student;
 import java.sql.SQLException;
 import java.util.List;
 
-public interface StudentDAO {
+public interface StudentDao {
 
     //  Create
     void insertStudent(Student student) throws SQLException;

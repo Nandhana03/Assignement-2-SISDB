@@ -1,6 +1,6 @@
-package com.hexaware.SIS.service;
+package com.hexaware.sis.service;
 
-import com.hexaware.SIS.entity.Payment;
+import com.hexaware.sis.entity.Payment;
 import java.util.List;
 
 public interface PaymentService {
